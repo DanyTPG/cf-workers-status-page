@@ -15,7 +15,7 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: rss-bot # unique identifier
+  - id: val # unique identifier
     name: Valhallaa
     url: 'https://valhallaa.tk/' # URL to fetch
     method: GET # default=GET
