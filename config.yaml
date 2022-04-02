@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: rss-bot # unique identifier
     name: RSS Bot
-    url: 'https://rss-chan.danytpg.repl.co/' # URL to fetch
+    url: 'https://valhallaa.tk/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
