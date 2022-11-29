@@ -73,7 +73,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true   
   
 
-- id: uk1 # unique identifier
+  - id: uk1 # unique identifier
     name: UK 1
     url: 'https://alkgwmoawjt.cf/tj' # URL to fetch
     method: GET # default=GET
