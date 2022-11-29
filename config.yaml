@@ -66,7 +66,7 @@ monitors:
     
   - id: de1 # unique identifier
     name: DE 1
-    url: 'https://ladorrbas.ml/' # URL to fetch
+    url: 'https://ladorrbas.ml/tj' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
@@ -75,7 +75,7 @@ monitors:
 
 - id: uk1 # unique identifier
     name: UK 1
-    url: 'https://alkgwmoawjt.cf/' # URL to fetch
+    url: 'https://alkgwmoawjt.cf/tj' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
