@@ -48,13 +48,13 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
     
-  - id: fsb # unique identifier
-    name: File Streamer Bot
-    url: 'https://fsb-est1.fandogh.cloud/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+  #- id: fsb # unique identifier
+   # name: File Streamer Bot
+   # url: 'https://fsb-est1.fandogh.cloud/' # URL to fetch
+   # method: GET # default=GET
+   # expectStatus: 200 # operational status, default=200
+   # followRedirect: false # should fetch follow redirects, default=false
+   # linkable: false # allows the title to be a link, default=true
 
   - id: twb # unique identifier
     name: Twitch Bot
@@ -63,3 +63,20 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
+    
+  - id: de1 # unique identifier
+    name: DE 1
+    url: 'https://ladorrbas.ml/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true   
+  
+
+- id: uk1 # unique identifier
+    name: UK 1
+    url: 'https://alkgwmoawjt.cf/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true 
