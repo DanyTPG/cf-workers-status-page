@@ -42,7 +42,7 @@ monitors:
       
   - id: haxtrojan # unique identifier
     name: Trojan
-    url: 'http://[2a01:4f9:6a:49e7:105f:bb6a:e89a:0001]/kj' # URL to fetch
+    url: 'http://h.dexll.me/kj' # URL to fetch
     method: GET # default=GET
     expectStatus: 400 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
@@ -50,7 +50,7 @@ monitors:
     
   - id: haxvmess # unique identifier
     name: Vmess
-    url: 'http://[2a01:4f9:6a:49e7:105f:bb6a:e89a:0001]/km' # URL to fetch
+    url: 'http://h.dexll.me/km' # URL to fetch
     method: GET # default=GET
     expectStatus: 400 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
