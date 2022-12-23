@@ -39,14 +39,30 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true   
-  
-  - id: cloudflared # unique identifier
-    name: Cloudflare Tunnel
-    url: 'https://hello.valhallaa.tk/' # URL to fetch
+      
+  - id: haxtrojan # unique identifier
+    name: Trojan
+    url: 'http://[2a01:4f9:6a:49e7:105f:bb6a:e89a:0001]/kj' # URL to fetch
     method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
+    expectStatus: 400 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
+    
+  - id: haxvmess # unique identifier
+    name: Vmess
+    url: 'http://[2a01:4f9:6a:49e7:105f:bb6a:e89a:0001]/km' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 400 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+  
+  #- id: cloudflared # unique identifier
+   # name: Cloudflare Tunnel
+   # url: 'https://hello.valhallaa.tk/' # URL to fetch
+   # method: GET # default=GET
+   # expectStatus: 200 # operational status, default=200
+   # followRedirect: false # should fetch follow redirects, default=false
+   # linkable: false # allows the title to be a link, default=true
     
   #- id: fsb # unique identifier
    # name: File Streamer Bot
@@ -56,27 +72,27 @@ monitors:
    # followRedirect: false # should fetch follow redirects, default=false
    # linkable: false # allows the title to be a link, default=true
 
-  - id: twb # unique identifier
-    name: Twitch Bot
-    url: 'https://tw.valhallaa.tk/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+  #- id: twb # unique identifier
+   # name: Twitch Bot
+   # url: 'https://tw.valhallaa.tk/' # URL to fetch
+   # method: GET # default=GET
+   # expectStatus: 200 # operational status, default=200
+   # followRedirect: false # should fetch follow redirects, default=false
+   # linkable: false # allows the title to be a link, default=true
     
-  - id: de1 # unique identifier
-    name: DE 1
-    url: 'https://ladorrbas.ml/tj' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true   
+  #- id: de1 # unique identifier
+   # name: DE 1
+   # url: 'https://ladorrbas.ml/tj' # URL to fetch
+   # method: GET # default=GET
+   # expectStatus: 200 # operational status, default=200
+   # followRedirect: false # should fetch follow redirects, default=false
+   # linkable: false # allows the title to be a link, default=true   
   
 
-  - id: uk1 # unique identifier
-    name: UK 1
-    url: 'https://alkgwmoawjt.cf/tj' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true 
+  #- id: uk1 # unique identifier
+   # name: UK 1
+   # url: 'https://alkgwmoawjt.cf/tj' # URL to fetch
+   # method: GET # default=GET
+   # expectStatus: 200 # operational status, default=200
+   # followRedirect: false # should fetch follow redirects, default=false
+   # linkable: false # allows the title to be a link, default=true 
