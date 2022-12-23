@@ -55,6 +55,14 @@ monitors:
     expectStatus: 400 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
+    
+  - id: haxbrook # unique identifier
+    name: Brook
+    url: 'http://h.dexll.me/basic' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 405 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
   
   #- id: cloudflared # unique identifier
    # name: Cloudflare Tunnel
