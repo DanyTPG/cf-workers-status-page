@@ -15,50 +15,50 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: val # unique identifier
-    name: Valhallaa
-    url: 'https://valhallaa.tk/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
+#  - id: val # unique identifier
+#    name: Valhallaa
+#    url: 'https://valhallaa.tk/' # URL to fetch
+#    method: GET # default=GET
+#    expectStatus: 200 # operational status, default=200
+#    followRedirect: false # should fetch follow redirects, default=false
+#    linkable: true # allows the title to be a link, default=true
     
   - id: nyaa # unique identifier
     name: Nyaa
-    url: 'https://nyaa.valhallaa.tk/' # URL to fetch
+    url: 'https://nyaa.duhost.workers.dev/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
+    linkable: false # allows the title to be a link, default=true
     
     
   - id: caddy # unique identifier
     name: Caddy Webserver
-    url: 'https://uiaal.cf/' # URL to fetch
+    url: 'https://gr.uiaal.cf/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true   
       
-  - id: haxtrojan # unique identifier
+  - id: DGtrojan # unique identifier
     name: Trojan
-    url: 'http://h.dexll.me/kj' # URL to fetch
+    url: 'http://gr.uiaal.cf/xtj' # URL to fetch
     method: GET # default=GET
     expectStatus: 400 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
     
-  - id: haxvmess # unique identifier
+  - id: DGvmess # unique identifier
     name: Vmess
-    url: 'http://h.dexll.me/km' # URL to fetch
+    url: 'http://gr.uiaal.cf/xvm' # URL to fetch
     method: GET # default=GET
     expectStatus: 400 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
     
-  - id: haxbrook # unique identifier
+  - id: DGbrook # unique identifier
     name: Brook
-    url: 'http://h.dexll.me/basic' # URL to fetch
+    url: 'http://gr.uiaal.cf/basic' # URL to fetch
     method: GET # default=GET
     expectStatus: 400 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
