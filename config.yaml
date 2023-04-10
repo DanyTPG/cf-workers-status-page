@@ -42,7 +42,7 @@ monitors:
       
   - id: DGtrojan # unique identifier
     name: Trojan
-    url: 'http://gr.uiaal.cf/xtj' # URL to fetch
+    url: 'https://gr.uiaal.cf/xtj' # URL to fetch
     method: GET # default=GET
     expectStatus: 400 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
@@ -50,7 +50,7 @@ monitors:
     
   - id: DGvmess # unique identifier
     name: Vmess
-    url: 'http://gr.uiaal.cf/xvm' # URL to fetch
+    url: 'https://gr.uiaal.cf/xvm' # URL to fetch
     method: GET # default=GET
     expectStatus: 400 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
@@ -58,7 +58,7 @@ monitors:
     
   - id: DGbrook # unique identifier
     name: Brook
-    url: 'http://gr.uiaal.cf/basic' # URL to fetch
+    url: 'https://gr.uiaal.cf/basic' # URL to fetch
     method: GET # default=GET
     expectStatus: 400 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
