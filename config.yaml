@@ -25,44 +25,29 @@ monitors:
     
   - id: nyaa # unique identifier
     name: Nyaa
-    url: 'https://nyaa.duhost.workers.dev/help' # URL to fetch
+    url: 'https://nyaa.deno.dev/help' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
     
     
-  - id: caddy # unique identifier
-    name: Caddy Webserver
-    url: 'https://gr.uiaal.cf/' # URL to fetch
+  - id: nginx # unique identifier
+    name: NL1
+    url: 'https://api2.alkgwmoawjt.cf/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true   
-      
-  - id: DGtrojan # unique identifier
-    name: Trojan
-    url: 'https://gr.uiaal.cf/xtj' # URL to fetch
+    
+  - id: NL1vless # unique identifier
+    name: DexVPN Websocket
+    url: 'https://ws1.lamax.tk/vlws' # URL to fetch
     method: GET # default=GET
     expectStatus: 400 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
     
-  - id: DGvmess # unique identifier
-    name: Vmess
-    url: 'https://gr.uiaal.cf/xvm' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 400 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-    
-  - id: DGbrook # unique identifier
-    name: Brook
-    url: 'https://gr.uiaal.cf/basic' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 400 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
     
 
   #- id: cloudflared # unique identifier
