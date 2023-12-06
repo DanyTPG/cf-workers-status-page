@@ -34,9 +34,9 @@ monitors:
     
   - id: nginx # unique identifier
     name: NL1
-    url: 'https://api2.alkgwmoawjt.cf/' # URL to fetch
+    url: 'https://nl.uiaal.cf/' # URL to fetch
     method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
+    expectStatus: 403 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true   
     
