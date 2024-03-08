@@ -2,7 +2,7 @@ settings:
   title: 'Status Page'
   url: 'https://status-page.duhost.workers.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 90 # number of days you want to display in histogram
+  daysInHistogram: 30 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: 'All Systems Operational'
@@ -33,7 +33,7 @@ monitors:
     
     
   - id: DE1ws # unique identifier
-    name: Websocket
+    name: DE1 vless ws cf
     url: 'https://ws1.arccon.tech/vlws' # URL to fetch
     method: GET # default=GET
     expectStatus: 400 # operational status, default=200
