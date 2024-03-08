@@ -32,9 +32,9 @@ monitors:
 #    linkable: true # allows the title to be a link, default=true
     
     
-  - id: NL1ws # unique identifier
+  - id: DE1ws # unique identifier
     name: Websocket
-    url: 'https://ws1.lamax.tk/vlws' # URL to fetch
+    url: 'https://ws1.arccon.tech/vlws' # URL to fetch
     method: GET # default=GET
     expectStatus: 400 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
